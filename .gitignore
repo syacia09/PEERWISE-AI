@@ -1,0 +1,85 @@
+# ===== PYTHON / BACKEND =====
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables (JANGAN di-commit — berisi API key!)
+backend/.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# SQLite database
+*.db
+*.sqlite
+*.sqlite3
+
+# Egg / build artifacts
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+
+# ===== NODE / FRONTEND =====
+# Dependencies
+frontend/node_modules/
+node_modules/
+
+# Vite build output
+frontend/dist/
+frontend/.vite/
+
+# Local env files
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# ===== EDITOR / OS =====
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ===== MISC =====
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
